@@ -1,0 +1,97 @@
+
+.menubarbody {
+  padding-top: 67px;/*원래는 76*/
+  margin:auto;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+/* nav 속성값 조절*/
+nav{
+  background-color: rgb(238, 238, 238);
+  color: green;
+  height: 70px;
+  position: relative;
+  z-index: 100;
+
+}
+
+/*로고 설정*/
+#logo-img{
+  width: 70%;
+  height: 70%;
+  background: no-repeat;
+  background-size: contain;
+}
+
+/*메뉴바 속성*/
+#nav-itemM{
+  position: relative;
+  z-index: 1;
+  
+}
+
+ #nav-itemM1{
+  width: 70%;
+  height: 70%;
+  margin-right: 10px;
+  margin-top:10px;
+  
+  
+  
+}
+
+#nav-itemM2{
+  width: 70%;
+  height: 70%;
+  margin-right: 10px;
+  margin-top:10px;
+  
+}
+
+#nav-itemM3{
+  width: 70%;
+  height: 70%;
+  margin-right: 10px;
+  margin-top:10px;
+  
+}
+
+#nav-itemM4{
+  width: 70%;
+  height: 70%;
+  margin-right: 10px;
+  margin-top:10px;
+  
+} 
+
+#nav-itemM5{
+  width: 80%;
+  height: 80%;
+  margin-right: 10px;
+  margin-top:30px;
+  
+} 
+#nav-itemM6{
+  width: 80%;
+  height: 80%;
+  margin-right: 10px;
+  margin-top:30px;
+  
+} 
+
+#nav-itemM7{
+  width: 70%;
+  height: 70%;
+  margin-right: 10px;
+  margin-top:17px;
+} 
+
+/* 헤더 이미지1번*/
+#header-style1{
+  background-image: url("../image/2019112119244594295.jpg");
+}
+
+
