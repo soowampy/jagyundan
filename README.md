@@ -13,7 +13,7 @@
 # 주요 코드
  - 네이버 개발자 센터에서 배포하는 소셜 로그인 방식을 이용한 SNS 로그인 기능을 구현하였습니다.<br>
  <br>
- > 소셜 사이트에서 제공해주는 소스 입력 후 JSON 이용해 회원 프로필 정보 호출
+ > 소셜 사이트에서 제공해주는 소스 입력 후 JSON 이용해 회원 프로필 정보 호출<br>
 ```sh
 	JSONParser parsing2 = new JSONParser();
 	Object obj2 = parsing2.parse(response2.toString());
