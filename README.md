@@ -15,17 +15,15 @@
  <br><br>
  >소셜 사이트에서 제공해주는 소스 입력 후 JSON 이용해 회원 프로필 정보 호출
 ```sh
-					JSONParser parsing2 = new JSONParser();
-					Object obj2 = parsing2.parse(response2.toString());
-					JSONObject jsonObj2 = (JSONObject) obj2;
-					JSONObject resObj2 = (JSONObject) jsonObj2.get("response");
-
-					// 왼쪽 변수 이름은 원하는 대로 정하면 된다.
-					// 단, 우측의 get()안에 들어가는 값은 와인색 상자 안의 값을 그대로 적어주어야 한다.
-					String id = (String) resObj2.get("id");
-					String email = (String) resObj2.get("email");
-					String name = (String) resObj2.get("name");
-					String nickName = (String) resObj2.get("nickname");
-					String birth = (String) resObj2.get("birth");
-					String gender = (String) resObj2.get("gender");
+	JSONParser parsing2 = new JSONParser();
+	Object obj2 = parsing2.parse(response2.toString());
+	JSONObject jsonObj2 = (JSONObject) obj2;
+	JSONObject resObj2 = (JSONObject) jsonObj2.get("response");
+	
+	String id = (String) resObj2.get("id");
+	String email = (String) resObj2.get("email");
+	String name = (String) resObj2.get("name");
+	String nickName = (String) resObj2.get("nickname");
+	String birth = (String) resObj2.get("birth");
+	String gender = (String) resObj2.get("gender");
 ```
