@@ -14,6 +14,8 @@
  - 네이버 개발자 센터에서 배포하는 소셜 로그인 방식을 이용한 SNS 로그인 기능을 구현하였습니다.<br>
  <br>
  > 소셜 사이트에서 제공해주는 소스 입력 후 JSON 이용해 회원 프로필 정보 호출<br>
+ 
+ 
 ```sh
 	JSONParser parsing2 = new JSONParser();
 	Object obj2 = parsing2.parse(response2.toString());
@@ -30,6 +32,8 @@
 <br>
 
  > 소셜 로그인을 처음 시도하는지, 이미 계정 정보가 있는지 확인하는 코드
+ 
+ 
  ```sh
 	//DB에 아이디가 존재하는지 확인
 	int r = new UserService().idCheck(id);
